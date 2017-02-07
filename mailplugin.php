@@ -76,7 +76,7 @@ function mailplugin_form_shortcode( $content="" ) {
                 // including content in our html if content is passed into the function
                 if ( strlen($content) > 0 ):
 
-                    $output .= '<div class="mailplugin-content">'. wpatop($content).'</div>';
+                    $output .= '<div class="mailplugin-content">'. $content.'</div>';
 
                 endif;
 
